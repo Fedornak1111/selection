@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+    let number1 = parseInt(prompt( "Please, input the number 1" ))
+    let number2 = parseInt(prompt( "Please, input the number 2" ))
+    let operation = parseInt(prompt( "Please, select the Math operation:\n 1.Addition \n 2.Subtraction \n 3.Multiply \n 4.Division" ))
+    let x
+    switch (operation){
+        case 1: x = number1 + number2
+        break;
+        case 2: x = number1 - number2
+        break;
+        case 3: x = number1 * number2
+        break;
+        case 4: x = number1 / number2
+        break;
+        default: document.write("Uncorrect")
+        break;
+    }
+    alert (`The result of selected operation is ${x}`)
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
